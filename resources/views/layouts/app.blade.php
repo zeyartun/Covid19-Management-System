@@ -84,9 +84,8 @@
             </main>
     </div>
 </body>
-<footer class="main-footer">
-
-    
+<footer class="footer">
+    @yield('footer')
     <script src={{asset('plugins/jquery/jquery.min.js')}}></script>
     <!-- Bootstrap 4 -->
     <script src={{asset('plugins/bootstrap/js/bootstrap.min.js')}}></script>
