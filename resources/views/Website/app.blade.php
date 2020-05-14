@@ -78,13 +78,19 @@
                     </ul>
                 </div>                
             </div>
-        </nav>
-            <main class="py-4">
-                @yield('content')
-            </main>
+        </nav>            
     </div>
+    <main class="container">
+        @yield('content')
+    </main>
 </body>
-<footer class="main-footer">
+<footer class="footer">
+    <div class="row">
+        <div class="col-md-3 col-sm-6 bg-dark text-center p-3">Home</div>
+        <div class="col-md-3 col-sm-6 bg-dark text-center p-3">About</div>
+        <div class="col-md-3 col-sm-6 bg-dark text-center p-3">Contact</div>        
+        <div class="col-md-3 col-sm-6 bg-dark text-center p-3">Blog</div>
+    </div>
 
     
     <script src={{asset('plugins/jquery/jquery.min.js')}}></script>
