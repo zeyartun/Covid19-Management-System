@@ -1,15 +1,35 @@
 @extends('layouts.app')
 @section('title','Home')
+<style>
+    body{
+        background-image: url({{asset('bg.jpg')}});
+        background-color: gray;         
+        background-position: center; 
+        background-repeat: no-repeat;
+        width:100%; 
+        background-size: cover;
+    }
+</style>
 @section('content')
-
-<h1>Hello Covid-19 Management System</h1>
+<div class="mt-5">
+    <h1 class="text-center text-white">Covid-19 Quarantine Center Management System</h1>
+</div>
+<div class="row m-md-5 m-sm-2">
+    <div class="col-md-3 col-sm-6 mt-sm-2 text-center">
+        <a href="#"><div class="btn btn-outline-light col-11">HOME</div></a>
+    </div>
+    <div class="col-md-3 col-sm-6 mt-sm-2 text-center">
+        <a href="#"><div class="btn btn-outline-light col-11">HOME</div></a>
+    </div>
+    <div class="col-md-3 col-sm-6 mt-sm-2 text-center">
+        <a href="#"><div class="btn btn-outline-light col-11">HOME</div></a>
+    </div>
+    <div class="col-md-3 col-sm-6 mt-sm-2 text-center">
+        <a href="#"><div class="btn btn-outline-light col-11">HOME</div></a>
+    </div> 
+</div>
 @endsection
 
 @section('footer')
-<div class="row">
-    <div class="col-md-3 col-sm-6 bg-dark text-center p-3">Home</div>
-    <div class="col-md-3 col-sm-6 bg-dark text-center p-3">About</div>
-    <div class="col-md-3 col-sm-6 bg-dark text-center p-3">Contact</div>        
-    <div class="col-md-3 col-sm-6 bg-dark text-center p-3">Blog</div>
-</div>
+
 @endsection
