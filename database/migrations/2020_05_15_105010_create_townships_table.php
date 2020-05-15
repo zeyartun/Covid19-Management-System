@@ -15,7 +15,7 @@ class CreateTownshipsTable extends Migration
     {
         Schema::create('townships', function (Blueprint $table) {
             $table->id();
-            $table->integer('city_ID');
+            $table->integer('city_id');
             $table->string('township_name');
             $table->timestamps();
         });

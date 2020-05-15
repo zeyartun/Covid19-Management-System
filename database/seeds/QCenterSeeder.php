@@ -16,7 +16,7 @@ class QCenterSeeder extends Seeder
 
        for ($i=0; $i < 1000; $i++) { 
        		$QCenter = new QCenter();
-       		$QCenter->township_ID = rand(1, 100);
+       		$QCenter->township_id = rand(1, 100);
             $QCenter->Qcenter_name = $faker->text('10');    
             $QCenter->bed_quantity = rand(20, 100);
             $QCenter->No_breakfast = rand(1, 100);

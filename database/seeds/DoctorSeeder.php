@@ -16,7 +16,7 @@ class DoctorSeeder extends Seeder
 
        for ($i=0; $i < 100; $i++) { 
        		$Doctor = new Doctor();
-       		$Doctor->Qcenter_ID = rand(1, 1000);
+       		$Doctor->q_center_id = rand(1, 1000);
             $Doctor->Doctor_name = $faker->name;  
             $Doctor->Doctor_ph = rand(40000000, 90000000);
             $Doctor->Doctor_address = $faker->text('30');

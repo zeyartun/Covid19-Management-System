@@ -16,7 +16,7 @@ class patientSeeder extends Seeder
         $gen = ['male','female'];
        for ($i=0; $i < 100; $i++) { 
        		$patient = new patient();
-       		$patient->Qcenter_ID = rand(1, 1000);
+       		$patient->q_center_id = rand(1, 1000);
             $patient->patient_name = $faker->name;  
             $patient->patient_ph = rand(40000000, 90000000);
             $patient->patient_address = $faker->text('30');   

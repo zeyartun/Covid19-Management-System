@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('Website.welcome');
 });
 
+Route::get('/township','TownshipController@townToCity');
+
 Auth::routes();
 Route::get('/admin', 'HomeController@index')->name('admin');
 Route::get('/home', 'HomeController@index');

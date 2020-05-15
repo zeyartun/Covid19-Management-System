@@ -15,7 +15,7 @@ class CreateQCentersTable extends Migration
     {
         Schema::create('q_centers', function (Blueprint $table) {
             $table->id();
-            $table->integer('township_ID');
+            $table->integer('township_id');
             $table->string('Qcenter_name');
             $table->integer('bed_quantity');
             $table->integer('No_breakfast');

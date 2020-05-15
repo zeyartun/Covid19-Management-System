@@ -15,7 +15,7 @@ class CreateDoctorsTable extends Migration
     {
         Schema::create('doctors', function (Blueprint $table) {
             $table->id();
-            $table->integer('Qcenter_ID');
+            $table->integer('q_center_id');
             $table->string('doctor_name');
             $table->string('doctor_ph');
             $table->string('doctor_address');
