@@ -16,16 +16,16 @@
 </div>
 <div class="row m-md-5 m-sm-2">
     <div class="col-md-3 col-sm-6 mt-sm-2 text-center">
-        <a href="#"><div class="btn btn-outline-light col-11">HOME</div></a>
+        <a href="#"><div class="btn btn-outline-light col-11">Q-Center & Bed Information</div></a>
     </div>
     <div class="col-md-3 col-sm-6 mt-sm-2 text-center">
-        <a href="#"><div class="btn btn-outline-light col-11">HOME</div></a>
+        <a href="#"><div class="btn btn-outline-light col-11">Patient Information</div></a>
     </div>
     <div class="col-md-3 col-sm-6 mt-sm-2 text-center">
-        <a href="#"><div class="btn btn-outline-light col-11">HOME</div></a>
+        <a href="#"><div class="btn btn-outline-light col-11">Doctor Information</div></a>
     </div>
     <div class="col-md-3 col-sm-6 mt-sm-2 text-center">
-        <a href="#"><div class="btn btn-outline-light col-11">HOME</div></a>
+        <a href="#"><div class="btn btn-outline-light col-11">Instock Information</div></a>
     </div> 
 </div>
 @endsection
