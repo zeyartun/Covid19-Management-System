@@ -14,10 +14,12 @@ class patientSeeder extends Seeder
     {
         $faker = Faker\Factory::create();
         $gen = ['male','female'];
+        $status = ['waiting','positive','negative','dead'];
        for ($i=0; $i < 100; $i++) { 
        		$patient = new patient();
        		$patient->q_center_id = rand(1, 1000);
-            $patient->patient_name = $faker->name;  
+            $patient->patient_name = $faker->name; 
+            $patient->patient_status = $status[rand(0,3)]; 
             $patient->patient_ph = rand(40000000, 90000000);
             $patient->patient_address = $faker->text('30');   
             $patient->patient_age = rand(1, 70);

@@ -17,6 +17,7 @@ class CreatePatientsTable extends Migration
             $table->id();
             $table->integer('q_center_id');
             $table->string('patient_name');
+            $table->string('patient_status');
             $table->string('patient_ph');
             $table->string('patient_address');
             $table->integer('patient_age');
