@@ -3,6 +3,8 @@
 @section('content')
 @include('Website.link');
 
+<h1>Hello Doctor</h1>
+
 @endsection
 
 @section('footer')

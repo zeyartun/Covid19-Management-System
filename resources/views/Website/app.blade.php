@@ -26,6 +26,17 @@
 <link rel="stylesheet" href="{{asset('plugins/bootstrap/css/bootstrap.min.css')}}">
 <link rel="stylesheet" href="{{asset('plugins/bootstrap/css/bootstrap.css')}}">
 
+<style>
+    body{
+        background-image: url({{asset('bg.jpg')}});
+        background-color: gray;         
+        background-position: center; 
+        background-repeat: no-repeat;
+        width:100%; 
+        background-size: cover;
+    }
+</style>
+
 </head>
 <body>
     <div id="app">
