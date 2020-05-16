@@ -22,3 +22,15 @@ Route::get('/township','TownshipController@townToCity');
 Auth::routes();
 Route::get('/admin', 'HomeController@index')->name('admin');
 Route::get('/home', 'HomeController@index');
+Route::get('/patient', function(){
+    return view('admin.patients');
+});
+Route::get('/doctor', function(){
+    return view('admin.doctors');
+});
+Route::get('/QCenter', function(){
+    return view('admin.QCenter');
+});
+Route::get('/instock', function(){
+    return view('admin.instock');
+});
