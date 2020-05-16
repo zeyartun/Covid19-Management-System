@@ -12,6 +12,6 @@
         <a href="/doctor"><div class="btn btn-outline-light col-11">Doctor Information</div></a>
     </div>
     <div class="col-md-3 col-sm-6 mt-sm-2 text-center">
-        <a href="/instock"><div class="btn btn-outline-light col-11">Instock Information</div></a>
+        <a href="/city&township"><div class="btn btn-outline-light col-11">City & Township</div></a>
     </div> 
 </div>

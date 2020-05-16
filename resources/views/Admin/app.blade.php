@@ -132,27 +132,27 @@
                         </a>
                         <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="/QCenter" class="nav-link ">
+                            <a href="/admin/qcenters" class="nav-link ">
                             <i class="far fa-circle nav-icon"></i>
                             <p>Q-Center</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/patient" class="nav-link">
+                            <a href="/admin/patients" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>Patients Information</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                          <a href="/doctor" class="nav-link ">
+                          <a href="/admin/doctors" class="nav-link ">
                           <i class="far fa-circle nav-icon"></i>
                           <p>Doctors Information</p>
                           </a>
                       </li>
                       <li class="nav-item">
-                          <a href="/instock" class="nav-link">
+                          <a href="/admin/city&township" class="nav-link">
                           <i class="far fa-circle nav-icon"></i>
-                          <p>Instock Information</p>
+                          <p>City & Township</p>
                           </a>
                       </li>
                         </ul>
