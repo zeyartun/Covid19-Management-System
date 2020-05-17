@@ -19,17 +19,21 @@ Route::get('/', function () {
     return view('Website.welcome');
 });
 
+Route::resource('/patients','WebPatientController');
+Route::resource('/doctors','WebDoctorController');
+Route::resource('/qcenters','WebQCenterController');
+
 
 Auth::routes();
 Route::get('/admin', 'HomeController@index')->name('admin');
 Route::get('/home', 'HomeController@index');
 
 Route::Group(['prefix'=>'admin', 'middleware' => 'auth'],function(){
-    Route::get('/patients','PatientController@index');
+    Route::resource('/patients','PatientController');
 
-    Route::get('/doctors','DoctorController@index');
+    Route::resource('/doctors','DoctorController');
 
-    Route::get('/qcenters','QCenterController@index');
+    Route::resource('/qcenters','QCenterController');
 
-    Route::get('/city&township','TownshipController@index');
+    Route::resource('/city&township','TownshipController');
 });

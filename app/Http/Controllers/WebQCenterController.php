@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\DB;
 use App\QCenter;
 use App\patient;
 
-class QCenterController extends Controller
+class WebQCenterController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -18,7 +18,7 @@ class QCenterController extends Controller
     {
         $patients = patient::all();
         $qcenter = DB::table('q_centers')->paginate(20);
-        return view('Admin.QCenters')->with(compact('qcenter'));
+        return view('Website.QCenter')->with(compact('qcenter'));
     }
 
     /**
