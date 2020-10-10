@@ -1,4 +1,4 @@
-##Covid19 Quarantine Center Management System
+## Covid19 Quarantine Center Management System
 git clone https://github.com/zeyartun/Covid19-Management-System.git
 composer update
 copy .env.example to .env
@@ -7,11 +7,11 @@ php artisan migrate:fresh --seed
 
 php artisan serve
 
-#In Broser#
+# In Broser#
 
 localhost:8000
 to admin localhost:8000/admin
 username = zeyar1@gmail.com
 password = password
 
-###By Zeyar
+### By Zeyar
